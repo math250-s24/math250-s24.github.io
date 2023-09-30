@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH250: Mathematical Data Visualization",
+    "section": "",
+    "text": "Week\nDate\nTopic\nSlides\nCheck-in\nLab\n\n\n\n\n1\nM 8/21\nCourse Overview and Introduction to R\n\n\n\n\n\n\nW 8/23\nR fundamentals\n\n\n\n\n\n2\nM 8/28\nR fundamentals\n\n\n\n\n\n\nW 8/30\nR fundamentals\n\n\n\n\n\n3\nM 9/4\nLabor Day (No Class)\n\n\n\n\n\n\nW 9/6\nExploring data with R\n\n\n\n\n\n4\nM 9/11\nExploring data with R\n\n\n\n\n\n\nW 9/13\nData visualization\n\n\n\n\n\n5\nM 9/18\nData visualization\n\n\n\n\n\n\nW 9/20\nData visualization\n\n\n\n\n\n6\nM 9/25\nData manipulation and management\n\n\n\n\n\n\nW 9/27\nData manipulation and management\n\n\n\n\n\n7\nM 10/2\nProgramming basics\n\n\n\n\n\n\nW 10/4\nMidterm exam\n\n\n\n\n\n8\nM 10/9\nProgramming basics\n\n\n\n\n\n\nW 10/11\nProgramming basics\n\n\n\n\n\n9\nM 10/16\nProgramming basics\n\n\n\n\n\n\nW 10/18\nProgramming basics\n\n\n\n\n\n10\nM 10/23\nProgramming basics\n\n\n\n\n\n\nW 10/25\nProgramming basics\n\n\n\n\n\n11\nM 10/30\nSimulations\n\n\n\n\n\n\nW 11/1\nSimulations\n\n\n\n\n\n12\nM 11/6\nSimulations\n\n\n\n\n\n\nW 11/8\nStatistical inference\n\n\n\n\n\n13\nM 11/13\nStatistical inference\n\n\n\n\n\n\nW 11/15\nStatistical inference\n\n\n\n\n\n14\nM 11/20\nStatistical inference\n\n\n\n\n\n\nW 11/22\nThanksgiving (No Class)\n\n\n\n\n\n15\nM 11/27\nReal world data analysis\n\n\n\n\n\n\nW 11/29\nReal world data analysis\n\n\n\n\n\n16\nM 12/4\nReal world data analysis\n\n\n\n\n\n\nW 12/6\nFinal review"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Instructor\nPeter Gao\n\n\nLectures\nWeekly on Monday and Wednesday, 10:30-11:45am in MH234\n\n\nOffice Hours\nMonday and Wednesday, 1:30-2:30pm in MH311 or email for an appointment\n\n\nEmail\npeter.gao [at sjsu]\nI will make every effort to respond to emails within a day, but please feel free to send me a reminder after 48 hours have passed. Please include [MATH 167R] in your subject line."
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Instructor\nPeter Gao\n\n\nLectures\nWeekly on Monday and Wednesday, 10:30-11:45am in MH234\n\n\nOffice Hours\nMonday and Wednesday, 1:30-2:30pm in MH311 or email for an appointment\n\n\nEmail\npeter.gao [at sjsu]\nI will make every effort to respond to emails within a day, but please feel free to send me a reminder after 48 hours have passed. Please include [MATH 167R] in your subject line."
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nIntroduction to the R programming language. Topics include data structures, reading and writing data, databases, data visualization, accessing packages, programming structures and functions.\nUpon successful completion of this course, students will be able to:\n\nUnderstand the structures of R objects\nImport data from a variety of sources.\nSave data in formats that can be used by other programs.\nCreate publication quality graphs.\nDownload and install packages.\nCreate reusable functions.\nPerform statistical analysis on R.\n\nThis course aims to help you build a foundation of computational skills for data analysis. Data encountered in real world applications are usually messy, breaking many of the assumptions we make in typical statistics courses. Throughout this course, we will practice using computers to help us understand, summarize, visualize, and model complex data in a reproducible way."
+  },
+  {
+    "objectID": "syllabus.html#materials",
+    "href": "syllabus.html#materials",
+    "title": "Syllabus",
+    "section": "Materials",
+    "text": "Materials\nThe primary text for the course will be the lecture slides, which will be posted to the course website. The following textbooks may be useful resources.\n\nGrolemund, G. (2014). Hands-On Programming with R. Available here for free.\nWickham, H. and Grolemund, G. (2023). R for Data Science. Available here for free.\nLee, B.L. (2016). An Introduction to Computational Probability and Statistics with R (Draft).\nÇetinkaya-Rundel, M. and Hardin, J. (2021) Introduction to Modern Statistics. Available here for free.\n\nThe main way we will interact with R is through the software RStudio, both of which can be downloaded and installed for free. The students will be required to have access to a computer with R and RStudio. The computer lab in MacQuarrie Hall 221 contains computers with all of the software that will be used during the semester. All of the coursework may be completed on a personal computer and the software is freely available to students."
+  },
+  {
+    "objectID": "syllabus.html#course-requirements-and-grading",
+    "href": "syllabus.html#course-requirements-and-grading",
+    "title": "Syllabus",
+    "section": "Course requirements and grading",
+    "text": "Course requirements and grading\nTypically, each 75 minute class session will be broken up into a 50 minute lecture and a 25 minute lab. Lab time will be an opportunity for you to practice coding, work collaboratively on assignments, and ask for help.\n\nCheck-ins: On most Mondays, you will be assigned short check-in assignments. These are designed to be completed during lab or shortly after and will usually be due at the start of the next class. At the end of the quarter, your lowest check-in grade will be dropped. They will be graded on the following two point scale:\n\n0: indicates incomplete or unacceptable work\n1: represents demonstrated effort towards completing at least 75% of the assignment\n2: represents demonstrated effort towards completing the entire assignment.\n\nLabs: On most Wednesdays, you will be assigned Labs. These are extended, more complicated assignments that you will likely not be able to complete during class. They will typically be due the next Wednesday. At the end of the quarter, your lowest lab grade will be dropped.\nMidterm and Final Exams: There will be one in-person midterm during the semester and one final exam during finals week. Practice questions will be provided in advance of the exams. There will be no make-up midterm or final exams.\nClass Project: During the semester, you will complete a class project that requires you to apply the data manipulation, visualization, and analysis skills covered in this course to a real-world dataset of your choice.\nLate Work: In general, the late policy is as follows: Any assignment that is received late but less than 24 hours late will receive a grade penalty of 25%. Any assignment that is received 24 to 48 hours late will receive a grade penalty of 50%. Assignments will not be accepted more than 48 hours late.\n\n\nGrading scale\nYour final grade will be calculated as follows:\n\n15%: Check-ins\n30%: Labs\n15%: Midterm exam\n20%: Final exam\n20%: Class project\n\n\n\n\nLetter Grade\nRaw Percentage\n\n\n\n\nA plus\n96 to 100%\n\n\nA\n93 to 95%\n\n\nA minus\n90 to 92%\n\n\nB plus\n86 to 89%\n\n\nB\n83 to 85%\n\n\nB minus\n80 to 82%\n\n\nC plus\n76 to 79%\n\n\nC\n73 to 75%\n\n\nC minus\n70 to 72%\n\n\nD plus\n66 to 69%\n\n\nD\n63 to 65%\n\n\nD minus\n60 to 62%\n\n\nF\n0 to 60%"
+  },
+  {
+    "objectID": "syllabus.html#course-schedule",
+    "href": "syllabus.html#course-schedule",
+    "title": "Syllabus",
+    "section": "Course Schedule",
+    "text": "Course Schedule\nThe updated course schedule is available on the course homepage here."
+  },
+  {
+    "objectID": "syllabus.html#policies",
+    "href": "syllabus.html#policies",
+    "title": "Syllabus",
+    "section": "Policies",
+    "text": "Policies\n\nFeedback\nI encourage and appreciate your feedback throughout the quarter. You are welcome to provide feedback on any aspect of the course at any time via email or in person. If you would prefer to do so confidentially, you can do so through the form on the course Canvas page.\n\n\nCollaboration\nOn most assignments, collaboration is allowed and encouraged. You may discuss problems, approaches, and solutions with your classmates. Acceptable collaboration is limited to your classmates in this course and you must clearly include on any collaborative work the name(s) of anyone with whom you worked. Additionally, all submitted work must be your own; you should not submit code or answers copied from any resource including your classmates. Plagiarism and cheating is easy to detect and can lead to serious negative consequences for you. If you have any questions regarding this policy, please ask for clarification.\n\n\nOnline resources\nStudents are encouraged to use online resources including large language model-based chatbots (ex. ChatGPT) as aids for learning and understanding course material. However, the use of external resources like ChatGPT to generate code or answers for course labs, assignments, exams, and projects is not permitted.\n\n\nDiscussion\nYou are encouraged to participate on the discussion forum by posting questions about assignments and answering questions from other students. Posts may not include substantial amounts of code that can be used for a solution to any problem, but may include code snippets within reason. Participation, in the form of both questions and answers, can earn you up to 2% extra credit for your final grade. Posts will be evaluated based on how substantive and helpful they are to the class.\n\n\nUniversity policies\nPer University Policy S16-9, relevant university policy concerning all courses, such as student responsibilities, academic integrity, accommodations, dropping and adding, consent for recording of class, etc. and available student services (e.g. learning assistance, counseling, and other resources) are listed on Syllabus Information web page (link). Make sure to visit this page to review and be aware of these university policies and resources."
+  },
+  {
+    "objectID": "syllabus.html#frequently-asked-questions",
+    "href": "syllabus.html#frequently-asked-questions",
+    "title": "Syllabus",
+    "section": "Frequently Asked Questions",
+    "text": "Frequently Asked Questions\nQ1. Why doesn’t my code work? Why don’t I “get” programming?\nA1. This is a natural part of learning to program. In fact, I believe that the ability to work through “bugs” and broken code is the single most important skill you can develop in this course. If you can learn how to be resourceful and solve your own coding problems, you will be able to learn any programming language on your own.\nQ2. OK, but my homework is due in a week and I need actual advice on how to fix this bug.\nA2. It sounds like you’re getting started early! Good. If you’re running into trouble, here are a few places you can ask for help:\n\nGoogle\nStackOverflow\nThe course discussion board\nYour classmates\n\nQ3. OK, but my homework is due tomorrow and I still can’t fix this bug.\nA3. Above all, try not to put yourself in this position. Start early and ask questions early. Give yourself time to solve your own problems. Of course, sometime you will get busy or life will get in the way and you won’t have as much time as you would like to work on an assignment. My second piece of advice is don’t go it alone. There have been numerous times where I have spent hours looking for a bug only to have a friend identify it in minutes. This does not just mean asking your friends who have already completed MATH 167 for help—some times all you need is a different perspective. Ask your classmates for help—in person or on the discussion board."
+  }
+]
