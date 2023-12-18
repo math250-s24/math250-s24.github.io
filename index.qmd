@@ -1,43 +1,45 @@
 ---
-title: "MATH250: Mathematical Data Visualization"
+title: "MATH250: Mathematical Methods for Data Visualization"
+subtitle: "Spring 2024"
 tbl-colwidths: [5,10,20,10,10,10]
+draft: false
 ---
 
 ::: column-screen-inset-right
-|          Week           | Date    | Topic                                 | Slides | Check-in | Lab |
-|:----------:|------------|------------|:----------:|:----------:|:----------:|
-| [1](/weeks/week-1.html) | M 8/21  | Course Overview and Introduction to R |        |          |     |
-|                         | W 8/23  | R fundamentals                        |        |          |     |
-|            2            | M 8/28  | R fundamentals                        |        |          |     |
-|                         | W 8/30  | R fundamentals                        |        |          |     |
-|            3            | M 9/4   | *Labor Day (No Class)*                |        |          |     |
-|                         | W 9/6   | Exploring data with R                 |        |          |     |
-|            4            | M 9/11  | Exploring data with R                 |        |          |     |
-|                         | W 9/13  | Data visualization                    |        |          |     |
-|            5            | M 9/18  | Data visualization                    |        |          |     |
-|                         | W 9/20  | Data visualization                    |        |          |     |
-|            6            | M 9/25  | Data manipulation and management      |        |          |     |
-|                         | W 9/27  | Data manipulation and management      |        |          |     |
-|            7            | M 10/2  | Programming basics                    |        |          |     |
-|                         | W 10/4  | Midterm exam                          |        |          |     |
-|            8            | M 10/9  | Programming basics                    |        |          |     |
-|                         | W 10/11 | Programming basics                    |        |          |     |
-|            9            | M 10/16 | Programming basics                    |        |          |     |
-|                         | W 10/18 | Programming basics                    |        |          |     |
-|           10            | M 10/23 | Programming basics                    |        |          |     |
-|                         | W 10/25 | Programming basics                    |        |          |     |
-|           11            | M 10/30 | Simulations                           |        |          |     |
-|                         | W 11/1  | Simulations                           |        |          |     |
-|           12            | M 11/6  | Simulations                           |        |          |     |
-|                         | W 11/8  | Statistical inference                 |        |          |     |
-|           13            | M 11/13 | Statistical inference                 |        |          |     |
-|                         | W 11/15 | Statistical inference                 |        |          |     |
-|           14            | M 11/20 | Statistical inference                 |        |          |     |
-|                         | W 11/22 | *Thanksgiving (No Class)*             |        |          |     |
-|           15            | M 11/27 | Real world data analysis              |        |          |     |
-|                         | W 11/29 | Real world data analysis              |        |          |     |
-|           16            | M 12/4  | Real world data analysis              |        |          |     |
-|                         | W 12/6  | Final review                          |        |          |     |
+| Week | Date   | Topic                                 | Slides | Check-in | Lab |
+|:----:|--------|---------------------------------------|:------:|:--------:|:---:|
+|  1   | W 1/24 | Course Overview and Introduction to R |        |          |     |
+|  2   | M 1/29 | R fundamentals                        |        |          |     |
+|      | W 1/31 | R fundamentals                        |        |          |     |
+|  3   | M 2/5  | R fundamentals                        |        |          |     |
+|      | W 2/7  | Exploring data with R                 |        |          |     |
+|  4   | M 2/12 | Exploring data with R                 |        |          |     |
+|      | W 2/14 | Data visualization                    |        |          |     |
+|  5   | M 2/19 | Data visualization                    |        |          |     |
+|      | W 2/21 | Data visualization                    |        |          |     |
+|  6   | M 2/26 | Data manipulation and management      |        |          |     |
+|      | W 2/28 | Data manipulation and management      |        |          |     |
+|  7   | M 3/4  | Programming basics                    |        |          |     |
+|      | W 3/6  | Midterm project                       |        |          |     |
+|  8   | M 3/11 | Programming basics                    |        |          |     |
+|      | W 3/13 | Programming basics                    |        |          |     |
+|  9   | M 3/18 | Programming basics                    |        |          |     |
+|      | W 3/20 | Programming basics                    |        |          |     |
+|  10  | M 3/25 | Programming basics                    |        |          |     |
+|      | W 3/27 | Simulations                           |        |          |     |
+|      | M 4/1  | *Cesar Chavez Day - No class*         |        |          |     |
+|      | W 4/3  | *Spring Break - No class*             |        |          |     |
+|  11  | M 4/8  | Simulations                           |        |          |     |
+|      | W 4/10 | Simulations                           |        |          |     |
+|  12  | M 4/15 | Simulations                           |        |          |     |
+|      | W 4/17 | Statistical inference                 |        |          |     |
+|  13  | M 4/22 | Statistical inference                 |        |          |     |
+|      | W 4/24 | Statistical inference                 |        |          |     |
+|  14  | M 4/29 | Statistical inference                 |        |          |     |
+|      | W 5/1  | *Thanksgiving (No Class)*             |        |          |     |
+|  15  | M 5/8  | Prediction                            |        |          |     |
+|      | W 5/10 | Prediction                            |        |          |     |
+|  16  | M 5/13 | Final presentations and review        |        |          |     |
 :::
 
 ```{r echo = FALSE}
