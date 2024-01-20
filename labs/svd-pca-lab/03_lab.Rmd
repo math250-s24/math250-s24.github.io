@@ -1,7 +1,7 @@
 ---
 title: "Singular Value Decomposition and Principal Components Analysis"
 author: "YOUR NAME HERE"
-date: "2024-2-4"
+date: ""
 format: 
   html:
     embed-resources: true
