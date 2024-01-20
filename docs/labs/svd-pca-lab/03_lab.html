@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="YOUR NAME HERE">
-<meta name="dcterms.date" content="2024-02-04">
 
 <title>MATH250 - Singular Value Decomposition and Principal Components Analysis</title>
 <style>
@@ -4597,12 +4596,6 @@ vertical-align: -.125em;
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 4, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -4614,7 +4607,7 @@ vertical-align: -.125em;
 <p>You may collaborate with your classmates and consult external resources, but you should write and submit your own answer. <strong>Any classmates with whom you collaborate should be credited at the top of your submission. Similarly, if you consult any external references, you should cite them clearly and explicitly.</strong></p>
 <section id="singular-value-decomposition" class="level1">
 <h1>Singular Value Decomposition</h1>
-<p>For this part, you will be exploring U.S. Congress voting data from <a href="https://www.voteview.com">voteview.com</a>. Your goal is to examine the partisanship of U.S. Congress using the singular value decomposition. I <strong>strongly</strong> recommend saving a version of the unprocessed .csv files on your machine so you will be able to work offline. The data are available at: * <a href="https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/house_116_raw.csv">117th House of Representatives</a> * <a href="https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/senate_116_raw.csv">117th Senate</a></p>
+<p>For this part, you will be exploring U.S. Congress voting data from <a href="https://www.voteview.com">voteview.com</a>. Your goal is to examine the partisanship of U.S. Congress using the singular value decomposition. I <strong>strongly</strong> recommend saving a version of the unprocessed .csv files on your machine so you will be able to work offline. The data are available at: * <a href="https://github.com/math250-s24/math250-s24.github.io/raw/main/labs/svd-pca-lab/H117_votes_clean.csv">117th House of Representatives</a> * <a href="https://github.com/math250-s24/math250-s24.github.io/raw/main/labs/svd-pca-lab/S117_votes_clean.csv">117th Senate</a></p>
 <ul>
 <li><code>rc</code> columns stand for roll calls. Each vote has it’s own roll call. The code is as follows:
 <ul>
@@ -4933,7 +4926,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> &quot;Singular Value Decomposition and Principal Components Analysis&quot;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> &quot;YOUR NAME HERE&quot;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> &quot;2024-2-4&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> &quot;&quot;</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    embed-resources: true</span></span>
@@ -4947,8 +4940,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu"># Singular Value Decomposition</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>For this part, you will be exploring U.S. Congress voting data from  <span class="co">[</span><span class="ot">voteview.com</span><span class="co">](https://www.voteview.com)</span>. Your goal is to examine the partisanship of U.S. Congress using the singular value decomposition. I **strongly** recommend saving a version of the unprocessed .csv files on your machine so you will be able to work offline. The data are available at:</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">  * </span><span class="co">[</span><span class="ot">117th House of Representatives</span><span class="co">](https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/house_116_raw.csv)</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">  * </span><span class="co">[</span><span class="ot">117th Senate</span><span class="co">](https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/senate_116_raw.csv)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">  * </span><span class="co">[</span><span class="ot">117th House of Representatives</span><span class="co">](https://github.com/math250-s24/math250-s24.github.io/raw/main/labs/svd-pca-lab/H117_votes_clean.csv)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">  * </span><span class="co">[</span><span class="ot">117th Senate</span><span class="co">](https://github.com/math250-s24/math250-s24.github.io/raw/main/labs/svd-pca-lab/S117_votes_clean.csv)</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="in">`rc`</span> columns stand for roll calls. Each vote has it&#39;s own roll call. The code is as follows:</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">  * </span><span class="in">`1`</span>: &quot;Yea&quot; vote</span>
