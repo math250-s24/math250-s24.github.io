@@ -1,0 +1,16 @@
+{
+  "hash": "23162ac9a86b4619064541df7422a495",
+  "result": {
+    "markdown": "---\ntitle: \"Matrix Algebra in R\"\nauthor: \"YOUR NAME HERE\"\ndate: \"2024-2-4\"\nformat: \n  html:\n    embed-resources: true\n    code-tools: true\n    code-summary: \"Code\"\n---\n\n\nReview the following tutorial on basic matrix algebra in R and complete the exercises at the bottom. Your solutions should include both R code and any output requested. You may organize your solutions using an R Markdown document or in a pdf/docx format.\n\nYou may collaborate with your classmates and consult external resources, but you should write and submit your own answer. **Any classmates with whom you collaborate should be credited at the top of your submission. Similarly, if you consult any external references, you should cite them clearly and explicitly.**\n\n# SVD\n\n# PCA",
+    "supporting": [
+      "SVD-lab_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

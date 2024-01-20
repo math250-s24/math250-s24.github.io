@@ -1,0 +1,14 @@
+{
+  "hash": "3c5384206bbf1e49276b111d62c54ffe",
+  "result": {
+    "markdown": "---\ntitle: \"Linear Systems and Least Squares\"\nauthor: \"YOUR NAME HERE\"\ndate: \"2024-3-13\"\nformat: \n  html:\n    embed-resources: true\n    code-tools: true\n    code-summary: \"Code\"\n---\n\n\nReview the following tutorial on basic matrix algebra in R and complete the exercises at the bottom. Your solutions should include both R code and any output requested. You may organize your solutions using an R Markdown document or in a pdf/docx format.\n\nYou may collaborate with your classmates and consult external resources, but you should write and submit your own answer. **Any classmates with whom you collaborate should be credited at the top of your submission. Similarly, if you consult any external references, you should cite them clearly and explicitly.**\n\n\n\n1. Create a vector `x` containing the integers 1 through 100 and compute the length of `x` by taking the square root of the dot product of `x` with itself.\n\n2. Construct the following matrices in R and use matrix functions/operations to answer the following questions.\n\n$$\nA=\\begin{bmatrix}\n\t\t1 & 2 & 3 & 4 \\\\\n\t\t0 & 1 & 1 & 2 \\\\\n\t\t1 & 3 & 4 & 6 \n\\end{bmatrix}\\hspace{2cm}\nB=\\begin{bmatrix}\n\t\t1 & 1 & 2 \\\\\n\t\t2 & 2 & 4 \\\\\n\t\t5 & 6 & 7 \\\\\n\t\t5 & 6 & 8 \n\\end{bmatrix}\n$$\n\n  a. What is $AB$?\n  b. What is $B^T A^T$?\n  c. Is $AB$ invertible? If so, what is its inverse?\n  d. Is $A^T A$ invertible? If so, what is its inverse?\n  e. Is $B^T B$ invertible? If so, what is its inverse?\n  f. What are the non-zero eigenvalues of $A^T A$? How do they compare to the non-zero eigenvalues of $AA^T$?\n  \n3. Use matrix operations in R to solve the following system of linear equations:\n\n\\begin{align}\n7x+2y+z&=30\\\\\n8x+2y-z&=24\\\\\nx+y+z&=12\n\\end{align}\n\n4. Use a 3d scatter plot to visualize the relationships between the variables `mpg`, `hp`, and `wt` from the `mtcars` dataset (included in R).\n\n\n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

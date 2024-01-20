@@ -1,0 +1,18 @@
+---
+title: "Matrix Algebra in R"
+author: "YOUR NAME HERE"
+date: "2024-2-4"
+format: 
+  html:
+    embed-resources: true
+    code-tools: true
+    code-summary: "Code"
+---
+
+Review the following tutorial on basic matrix algebra in R and complete the exercises at the bottom. Your solutions should include both R code and any output requested. You may organize your solutions using an R Markdown document or in a pdf/docx format.
+
+You may collaborate with your classmates and consult external resources, but you should write and submit your own answer. **Any classmates with whom you collaborate should be credited at the top of your submission. Similarly, if you consult any external references, you should cite them clearly and explicitly.**
+
+# SVD
+
+# PCA

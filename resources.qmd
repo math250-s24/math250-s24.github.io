@@ -7,6 +7,9 @@ editor:
 draft: false
 ---
 
+# Helpful readings
+
+-   [The Fundamental Theorem of Linear Algebra by Gilbert Strang](https://www.jstor.org/stable/2324660)
 
 # Helpful courses and videos
 

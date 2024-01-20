@@ -7,35 +7,34 @@ editor:
 
 ## Course information
 
-+--------------+--------------------------------------+--------------+
-| **           | Peter Gao                            |              |
-| Instructor** |                                      |              |
-+--------------+--------------------------------------+--------------+
-| **Lectures** | Weekly on Monday and Wednesday,      |              |
-|              | 9-10:15am in MH235                   |              |
-+--------------+--------------------------------------+--------------+
-| **Office     | Monday and Wednesday, 10 :30-11:30am |              |
-| Hours**      | in MH311 or email for an appointment |              |
-+--------------+--------------------------------------+--------------+
-| **Email**    | peter.gao \[at sjsu\]                |              |
-|              |                                      |              |
-|              | *Email or the course discussion      |              |
-|              | board is the best way to reach me.   |              |
-|              | Email should be used for             |              |
-|              | administrative/logistics issues and  |              |
-|              | the discussion board should be used  |              |
-|              | for questions on course material or  |              |
-|              | homework. Questions about the        |              |
-|              | homework submitted by email will     |              |
-|              | generally be redirected to the       |              |
-|              | discussion board. I will make every  |              |
-|              | effort to respond to                 |              |
-|              | emails/discussion posts within a     |              |
-|              | day, but please feel free to send me |              |
-|              | a reminder after 48 hours have       |              |
-|              | passed. Please include \[MATH 250\]  |              |
-|              | in your subject line.*               |              |
-+--------------+--------------------------------------+--------------+
++-------------+----------------------------------------+------------+
+| **I         | Peter Gao                              |            |
+| nstructor** |                                        |            |
++-------------+----------------------------------------+------------+
+| *           | Weekly on Monday and Wednesday,        |            |
+| *Lectures** | 9-10:15am in MH235                     |            |
++-------------+----------------------------------------+------------+
+| **Office    | Monday and Wednesday, 10:30-11:30am in |            |
+| Hours**     | MH311 or email for an appointment      |            |
++-------------+----------------------------------------+------------+
+| **Email**   | peter.gao \[at sjsu\]                  |            |
+|             |                                        |            |
+|             | *Email or the course discussion board  |            |
+|             | is the best way to reach me. Email     |            |
+|             | should be used for                     |            |
+|             | administrative/logistics issues and    |            |
+|             | the discussion board should be used    |            |
+|             | for questions on course material or    |            |
+|             | homework. Questions about the homework |            |
+|             | submitted by email will generally be   |            |
+|             | redirected to the discussion board. I  |            |
+|             | will make every effort to respond to   |            |
+|             | emails/discussion posts within a day,  |            |
+|             | but please feel free to send me a      |            |
+|             | reminder after 48 hours have passed.   |            |
+|             | Please include \[MATH 250\] in your    |            |
+|             | subject line.*                         |            |
++-------------+----------------------------------------+------------+
 
 ## Course learning outcomes
 
@@ -186,7 +185,7 @@ The updated course schedule is available on the course homepage
 I encourage and appreciate your feedback throughout the quarter. You are
 welcome to provide feedback on any aspect of the course at any time via
 email or in person. If you would prefer to do so confidentially, you can
-do so through the form on the course Canvas page.
+do so through the anonymous feedback form on this website.
 
 ### Collaboration
 
