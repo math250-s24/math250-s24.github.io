@@ -9,7 +9,7 @@ draft: false
 | Week | Date   | Topic                                         | Readings                                 |                         Slides                         |                   HW                   |
 |:---------:|-----------|-----------|:----------|:---------:|:---------:|
 |  1   | W 1/24 | Overview: Data as representation              |                                          | [Slides 01](slides/01_intro.pdf){.label .label-purple} | [HW 01](hw/hw1.pdf){.label .label-red} |
-|  2   | M 1/29 | Highlights of linear algebra                  | Strang I.1 and I.2, Murphy Ch. 7         |                                                        |                                        |
+|  2   | M 1/29 | Highlights of linear algebra                  | Strang I.1 and I.2, Murphy Ch. 7         | [Notes 02](slides/02_notes.pdf){.label .label-purple}                                                       |                                        |
 |      | W 1/31 | Highlights of linear algebra                  | Strang I.3 and I.4                       |                                                        |   [HW 02](hw/hw2.pdf){.label .label-red}      [Lab](hw/matrix-algebra-lab.html){.label .label-red}                                |
 |  3   | M 2/5  | Highlights of linear algebra                  | Strang I.5 and I.6                       |                                                        |                                        |
 |      | W 2/7  | Highlights of linear algebra                  | Strang I.7                               |                                                        |                                        |

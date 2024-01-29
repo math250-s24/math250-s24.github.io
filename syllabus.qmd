@@ -14,7 +14,7 @@ editor:
 |                    | in MH235                                  |   |
 +--------------------+-------------------------------------------+---+
 | **Office Hours**   | Monday and Wednesday, 10:30-11:30am in    |   |
-|                    | MH311 or email for an appointment         |   |
+|                    | MH426 or email for an appointment         |   |
 +--------------------+-------------------------------------------+---+
 | **Email**          | peter.gao \[at sjsu\]                     |   |
 |                    |                                           |   |
