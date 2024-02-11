@@ -34,5 +34,8 @@ For this part, you will be exploring U.S. Congress voting data from  [voteview.c
 For this portion of the lab, you may select any dataset that interests you with which to carry out a principal components analysis. 
 
 1. Choose a dataset and provide a brief description of your selected dataset. What does each row and column represent? You should choose a dataset with enough numerical variables to make PCA or some other dimension reduction approach appropriate (ex > 5). 
-2. Carry out a principal components analysis using your dataset. You may use the `prcomp` function in R or compute the principal components by hand. 
-3. Provide a biplot of the first two principal components and their variable loadings and comment on your findings. Are the first two principal components interpretable? What are the limitations of using principal components analysis with your data?
+2. Carry out a principal components analysis using your dataset. You may use the `prcomp` function in R or compute the principal components by hand. Provide a biplot of the first two principal components and their variable loadings and comment on your findings. In particular, be sure to answer the following questions:
+  a. Interpret the variable loadings for the first two principal components. Can you assign any meanings/interpretations to the first two or three principal components?
+  b. Do your observations form any clusters when you plot the first two principal components? If so, can you assign any labels/interpretations to the clusters?
+  c. What are your overall conclusions based on your principal components analysis? Summarize two or three main results.
+  d. What are the limitations of using principal components analysis with your data? How could your analysis be improved?
