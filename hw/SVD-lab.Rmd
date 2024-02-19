@@ -15,8 +15,9 @@ You may collaborate with your classmates and consult external resources, but you
 # Singular Value Decomposition
 
 For this part, you will be exploring U.S. Congress voting data from  [voteview.com](https://www.voteview.com). Your goal is to examine the partisanship of U.S. Congress using the singular value decomposition. I **strongly** recommend saving a version of the unprocessed .csv files on your machine so you will be able to work offline. The data are available at:
-  * [117th House of Representatives](https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/house_116_raw.csv)
-  * [117th Senate](https://raw.githubusercontent.com/peteragao/STAT302-AUT2021/base/files/projects/02_congress-data/senate_116_raw.csv)
+
+  * [117th House of Representatives](H117_votes_clean.csv)
+  * [117th Senate](S117_votes_clean.csv)
   
 * `rc` columns stand for roll calls. Each vote has it's own roll call. The code is as follows:
   * `1`: "Yea" vote
