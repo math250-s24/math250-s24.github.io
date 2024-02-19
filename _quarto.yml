@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: static
 
 website:
   title: "MATH250"
@@ -31,7 +32,6 @@ website:
             text: Feedback
           - href: license.qmd
             text: License
-
 
 
 format:
