@@ -12,14 +12,18 @@ Y <- rbind(y1, y2)
 X <- t(A %*% Y)
 p <- prcomp(X, scale = F)
 
-plot(X, xlab = "x", ylab = "y", asp = 1, pch = 16, col = rgb(red = 1, green = 0, blue = 0, alpha = 0.5))
+plot(X, xlab = "x", ylab = "y",
+     asp = 1, pch = 16, 
+     col = rgb(red = 1, green = 0, blue = 0, alpha = 0.5))
 arrows(x0 = 0, y0 = 0, x1 = (p$rotation %*% diag(p$sdev))[1, 1],
        y1 = (p$rotation %*% diag(p$sdev))[2, 1], col = "black", lwd = 3)
 arrows(x0 = 0, y0 = 0, x1 = -(p$rotation %*% diag(p$sdev))[1, 2],
        y1 = -(p$rotation %*% diag(p$sdev))[2, 2], col = "black", lwd = 3)
 
 
-plot(p$x, xlab = "PC1", ylab = "PC2", asp = 1, pch = 16, col = rgb(red = 1, green = 0, blue = 0, alpha = 0.5))
+plot(p$x, xlab = "PC1", ylab = "PC2", 
+     asp = 1, pch = 16, 
+     col = rgb(red = 1, green = 0, blue = 0, alpha = 0.5))
 arrows(x0 = 0, y0 = 0, x1 = p$sdev[1],
        y1 = 0, col = "black", lwd = 3)
 arrows(x0 = 0, y0 = 0, y1 = p$sdev[2],
