@@ -18,14 +18,14 @@ The [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday/tree/master) p
 
 1. The following code can be used to download the data. Create a line plot with `date` on the x-axis, `close` on the y-axis, and a different color line for each `stock_symbol`. Briefly interpret your visualization.
 
-```{r}
+```{r, warning = F, message = F}
 library(tidyverse)
 big_tech_stock_prices <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-02-07/big_tech_stock_prices.csv')
 ```
 
 2. The following code can be used to transform a subset of the data into a matrix, where each row is a date and each column is a different technology stock. The values in the matrix represent the stock price on the specified date. Use this `stocks` matrix to carry out a factor analysis with one factor using the `factanal` function.
 
-```{r}
+```{r, warning = F, message = F}
 stocks <- big_tech_stock_prices |>
   filter(date > "2016-01-01" & date < "2022-12-30") |>
   select(stock_symbol, date, close) |>
