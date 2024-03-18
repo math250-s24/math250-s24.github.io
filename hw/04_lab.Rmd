@@ -38,7 +38,7 @@ Using the `flights` data from the `nycflights13` package, we will implement line
 
 2. Use the `chol`, `backsolve`, and `forwardsolve` functions to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.
 
-3. Use the `qr`, `backsolve`, and `forwardsolve` to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.
+3. Use the `qr` function and either `backsolve` or `forwardsolve` to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.
 
 4. Use the `svd` function to compute the pseudoinverse of $X$ and obtain the least squares solution $\widehat{\boldsymbol\beta}$.
 

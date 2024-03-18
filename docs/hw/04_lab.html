@@ -4740,7 +4740,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <ol type="1">
 <li><p>Remove all rows with <code>NA</code> values from the <code>flights</code> data frame. Let <code>n</code> be the number of remaining rows. Construct an <span class="math inline">\(n\)</span> by 2 matrix <span class="math inline">\(X\)</span> where the first column is all 1s (for the intercept) and the second column contains the variable <code>distance</code>. Construct a length-<span class="math inline">\(n\)</span> vector <code>y</code> containing the variable <code>air_time</code>.</p></li>
 <li><p>Use the <code>chol</code>, <code>backsolve</code>, and <code>forwardsolve</code> functions to obtain the least squares solution <span class="math inline">\(\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2\)</span>.</p></li>
-<li><p>Use the <code>qr</code>, <code>backsolve</code>, and <code>forwardsolve</code> to obtain the least squares solution <span class="math inline">\(\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2\)</span>.</p></li>
+<li><p>Use the <code>qr</code> function and either <code>backsolve</code> or <code>forwardsolve</code> to obtain the least squares solution <span class="math inline">\(\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2\)</span>.</p></li>
 <li><p>Use the <code>svd</code> function to compute the pseudoinverse of <span class="math inline">\(X\)</span> and obtain the least squares solution <span class="math inline">\(\widehat{\boldsymbol\beta}\)</span>.</p></li>
 <li><p>Use the <code>lm</code> function to verify that your estimates from 2, 3, and 4 agree with the standard R linear regression implementation.</p></li>
 </ol>
@@ -5076,7 +5076,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Use the <span class="in">`chol`</span>, <span class="in">`backsolve`</span>, and <span class="in">`forwardsolve`</span> functions to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.</span>
 <span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Use the <span class="in">`qr`</span>, <span class="in">`backsolve`</span>, and <span class="in">`forwardsolve`</span> to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Use the <span class="in">`qr`</span> function and either <span class="in">`backsolve`</span> or <span class="in">`forwardsolve`</span> to obtain the least squares solution $\widehat{\boldsymbol\beta}=\arg\min_{\boldsymbol\beta}||\mathbf{y}-X\boldsymbol\beta||^2$.</span>
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Use the <span class="in">`svd`</span> function to compute the pseudoinverse of $X$ and obtain the least squares solution $\widehat{\boldsymbol\beta}$.</span>
 <span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
