@@ -15,7 +15,7 @@ You may collaborate with your classmates and consult external resources, but you
 ## A. Multidimensional Scaling and Isomap
 
 
-```{r}
+```{r, warning = F, message = F}
 library(dimRed)
 set.seed(123)
 dat <- loadDataSet("Broken Swiss Roll", n = 500)
