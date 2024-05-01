@@ -41,7 +41,7 @@ You will submit a 1-2 page project proposal with the following information:
 
 You are encouraged to meet with the instructor to discuss potential project topics and datasets **before** beginning your project proposal. If you wish to use a dataset discussed in class, you should obtain instructor approval.
 
-## Part Two: Final Report (70 points), due 5/10
+## Part Two: Final Report (70 points), due 5/13
 
 You will also submit a written report that clearly explains your project and findings. The structure of your report will depend on your selected project topic, but a broad outline could look like the following:
 
@@ -53,7 +53,7 @@ You will also submit a written report that clearly explains your project and fin
 
 There is no explicit page limit/requirement, but a report of 5-7 single-spaced pages, not including figures/references, should be sufficient for most projects. The target audience of your report is a classmate who may not be familiar with your selected datasets or dimension reduction algorithms.
 
-## Part Three: Class Presentation (15 points), slides due 5/7
+## Part Three: Class Presentation (15 points), slides due 5/13
 
 At the end of the semester, you will deliver a brief lightning talk in class. You should rehearse your presentation in advance and it should include:
 
